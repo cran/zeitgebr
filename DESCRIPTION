@@ -1,7 +1,7 @@
 Package: zeitgebr
 Title: Analysis of Circadian Behaviours
-Date: 2018-05-15
-Version: 0.3.1
+Date: 2018-05-17
+Version: 0.3.2
 Authors@R: c(
     person("Quentin", "Geissmann", role = c("aut", "cre"), email = "qgeissmann@gmail.com"),
     person("Luis", "Garcia", role = c("aut"), email = "luis.garcia@uni-muenster.de")
@@ -12,7 +12,7 @@ Description: Use behavioural variables to compute period, rhythmicity and other 
   and autocorrelation-based periodograms.
 Depends: R (>= 3.00), behavr
 Imports: data.table, lomb, ggplot2, pracma
-Suggests: testthat, covr, knitr
+Suggests: testthat, covr, knitr, ggetho
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
@@ -20,9 +20,9 @@ URL: https://github.com/rethomics/zeitgebr
 BugReports: https://github.com/rethomics/zeitgebr/issues
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2018-05-16 11:11:00 UTC; quentin
+Packaged: 2018-05-17 12:52:15 UTC; quentin
 Author: Quentin Geissmann [aut, cre],
   Luis Garcia [aut]
 Maintainer: Quentin Geissmann <qgeissmann@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-05-16 15:36:48 UTC
+Date/Publication: 2018-05-18 08:15:41 UTC
