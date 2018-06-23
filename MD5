@@ -1,4 +1,4 @@
-6789b921c5efd6bcf8925a21df4a2ba6 *DESCRIPTION
+1bfa6b2326f612ec3bf3f4747ff1d4c6 *DESCRIPTION
 4074d281775bdff2c752d552027c3216 *NAMESPACE
 fb0deb45f9f8fc16fbc93f98cf7891a8 *R/aaa.R
 fdf5ecfb3fc3b91519df635a24771bf3 *R/aab-periodogram-methods.R
@@ -8,7 +8,7 @@ fdf5ecfb3fc3b91519df635a24771bf3 *R/aab-periodogram-methods.R
 80cad94bcb9374a05b5eddf044f16d44 *R/find-peaks.R
 732760219c240e8f2b14f066e3c3d4e1 *R/fourier-periodogram.R
 1d363a9bb52a154291b2c0436297e49e *R/ls-periodogram.R
-10df25f519bb195c73eab3e2914a66ab *R/periodogram.R
+c9e4534a20d658573702f75dfebdc2b6 *R/periodogram.R
 68ab56ebeb54a7446effe22907163fe1 *README.md
 37b4cad83774c2163aee11defeb76b84 *data/dams_sample.rda
 4cbc719b367e99cc10e53a72d661d3b7 *man/dams_sample.Rd
@@ -16,7 +16,6 @@ c0f70f34a2665bb77449697ee66366e8 *man/find_peaks.Rd
 1384012380e5cd09e84d55d3f66d0867 *man/periodogram.Rd
 9a7b92f84b09b12706cf5d57114857b7 *man/periodogram_methods.Rd
 8eb0dcc4a74336b9b713cc1fbaa00708 *tests/testthat.R
-98a27575765c18ba9ab9b0542f36d1bd *tests/testthat/prototype_tutorial.R
 1ea9b307f5abd991325326c74d5598a8 *tests/testthat/test-chi_sq_periodogram.R
 205997b133652223583e1bfa8c4df66b *tests/testthat/test-find_peaks.R
 ea64f709836096c3f672bb0191d72893 *tests/testthat/test-ls_periodogram.R
