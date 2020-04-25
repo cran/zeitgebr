@@ -5,7 +5,8 @@
 \title{Computes periodograms}
 \usage{
 periodogram(var, data, period_range = c(hours(16), hours(32)),
-  resample_rate = 1/mins(15), alpha = 0.01, FUN = chi_sq_periodogram, ...)
+  resample_rate = 1/mins(15), alpha = 0.01, FUN = chi_sq_periodogram,
+  ...)
 }
 \arguments{
 \item{var}{variable to analyse}
@@ -38,8 +39,8 @@ This function builds periodograms, with one of several methods, for each individ
 }
 \examples{
 data(dams_sample)
-# only a half of the individuals for the sake of the example
-dt <- dams_sample[xmv(region_id) \%in\% (1:16 * 2)]
+# only four individuals for the sake of the example
+dt <- dams_sample[xmv(region_id) \%in\% c(1, 7, 21, 31)]
 pdt <- periodogram(activity, dt, FUN = ls_periodogram, oversampling = 4)
 pdt <- periodogram(activity, dt, FUN = chi_sq_periodogram)
 \donttest{
