@@ -4,13 +4,19 @@
 \alias{spectrogram}
 \title{Computes spectrogram}
 \usage{
-spectrogram(var, data, period_range = c(hours(16), hours(32)),
-  resample_rate = 1/mins(15), FUN = cwt_spectrogram, ...)
+spectrogram(
+  var,
+  data,
+  period_range = c(hours(16), hours(32)),
+  resample_rate = 1/mins(15),
+  FUN = cwt_spectrogram,
+  ...
+)
 }
 \arguments{
 \item{var}{variable to analyse}
 
-\item{data}{\link{behavr} table}
+\item{data}{\link[behavr:behavr]{behavr::behavr} table}
 
 \item{period_range}{vector of size 2 defining minimal and maximal range of period to study (in seconds)}
 
@@ -32,7 +38,7 @@ The data contains the columns:
 }
 }
 \description{
-This function builds spectrogram, using CWT, for each individual of a \link{behavr} table
+This function builds spectrogram, using CWT, for each individual of a \link[behavr:behavr]{behavr::behavr} table
 }
 \details{
 A spectrogram is a estimation of the local periodicity of a signal at a given time.

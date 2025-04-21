@@ -4,9 +4,13 @@
 \alias{cwt_spectrogram}
 \title{Computes a spectrogram using CWT}
 \usage{
-cwt_spectrogram(x, period_range = c(hours(1), hours(32)),
-  sampling_rate = 1/mins(1), resolution = 1/64,
-  summary_time_window = mins(30))
+cwt_spectrogram(
+  x,
+  period_range = c(hours(1), hours(32)),
+  sampling_rate = 1/mins(1),
+  resolution = 1/64,
+  summary_time_window = mins(30)
+)
 }
 \arguments{
 \item{x}{numeric vector}

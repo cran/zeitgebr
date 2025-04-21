@@ -1,7 +1,7 @@
 Package: zeitgebr
 Title: Analysis of Circadian Behaviours
-Date: 2020-04-22
-Version: 0.3.5
+Date: 2025-04-21
+Version: 0.3.6
 Authors@R: c(
     person("Quentin", "Geissmann", role = c("aut", "cre"), email = "qgeissmann@gmail.com"),
     person("Luis", "Garcia", role = c("aut"), email = "luis.garcia@uni-muenster.de")
@@ -18,11 +18,11 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/rethomics/zeitgebr
 BugReports: https://github.com/rethomics/zeitgebr/issues
-RoxygenNote: 6.1.1
+RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2020-04-24 00:54:58 UTC; quentin
+Packaged: 2025-04-21 17:37:06 UTC; quentin
 Author: Quentin Geissmann [aut, cre],
   Luis Garcia [aut]
 Maintainer: Quentin Geissmann <qgeissmann@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-04-25 14:50:03 UTC
+Date/Publication: 2025-04-21 18:10:02 UTC

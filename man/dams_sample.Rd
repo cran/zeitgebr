@@ -6,7 +6,9 @@
 \title{A behavr table with approximately ten days of DAM2 recording for 32 fruit flies.
 The first 10, the following 11 and the last 11 animals have long, short and wild type period,
 respectively (see \code{meta(dams_sample)}).}
-\format{An object of class \code{behavr} (inherits from \code{data.table}, \code{data.frame}) with 415040 rows and 3 columns.}
+\format{
+An object of class \code{behavr} (inherits from \code{data.table}, \code{data.frame}) with 415040 rows and 3 columns.
+}
 \usage{
 dams_sample
 }

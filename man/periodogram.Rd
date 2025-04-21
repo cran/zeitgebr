@@ -4,14 +4,20 @@
 \alias{periodogram}
 \title{Computes periodograms}
 \usage{
-periodogram(var, data, period_range = c(hours(16), hours(32)),
-  resample_rate = 1/mins(15), alpha = 0.01, FUN = chi_sq_periodogram,
-  ...)
+periodogram(
+  var,
+  data,
+  period_range = c(hours(16), hours(32)),
+  resample_rate = 1/mins(15),
+  alpha = 0.01,
+  FUN = chi_sq_periodogram,
+  ...
+)
 }
 \arguments{
 \item{var}{variable to analyse}
 
-\item{data}{\link{behavr} table}
+\item{data}{\link[behavr:behavr]{behavr::behavr} table}
 
 \item{period_range}{vector of size 2 defining minimal and maximal range of period to study (in seconds)}
 
@@ -31,16 +37,16 @@ The data contains the columns:
 \item \code{power} -- the power the or equivalent (according to \code{FUN})
 \item \code{period} -- the period at which \code{power} is computed (in seconds)
 \item \code{p_value} -- the p value associated to the power estimation
-\item \code{signif threshold} -- the threshold above which power is considered significant
+\item \verb{signif threshold} -- the threshold above which power is considered significant
 }
 }
 \description{
-This function builds periodograms, with one of several methods, for each individual of a \link{behavr} table
+This function builds periodograms, with one of several methods, for each individual of a \link[behavr:behavr]{behavr::behavr} table
 }
 \examples{
 data(dams_sample)
-# only four individuals for the sake of the example
-dt <- dams_sample[xmv(region_id) \%in\% c(1, 7, 21, 31)]
+# only a half of the individuals for the sake of the example
+dt <- dams_sample[xmv(region_id) \%in\% (1:16 * 2)]
 pdt <- periodogram(activity, dt, FUN = ls_periodogram, oversampling = 4)
 pdt <- periodogram(activity, dt, FUN = chi_sq_periodogram)
 \donttest{
